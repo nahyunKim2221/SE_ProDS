@@ -1,6 +1,6 @@
 %% LLM 리뷰봇 UML 액티비티 다이어그램
 %% Mermaid JS Code for Activity Diagram
-
+```mermaid
 activityDiagram
     
     %% 1. 수영장 정의 (Swimlanes)
@@ -47,6 +47,6 @@ activityDiagram
         
         API -> API: 코멘트 생성 처리
         API -> GHA: 응답 (201 Created)
-        
+```        
         GHA -> end
     end
